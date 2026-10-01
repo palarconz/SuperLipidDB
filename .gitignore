@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+
+# Environment
+.env
+.env.*
+
+# Databases and generated data
+*.sqlite
+*.db
+*.csv
+!datos_lipidomica.csv
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
